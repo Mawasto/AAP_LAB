@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-06-22T20:28:54",
+  "contract": "imdb_data_contract",
+  "report": {
+    "no_nulls": {
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "null_count": 0
+      }
+    },
+    "labels_in_set": {
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "invalid_labels": []
+      }
+    },
+    "min_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": {
+        "rows_below_5_words": 0
+      }
+    },
+    "max_word_count": {
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "rows_above_2000_words": 0
+      }
+    },
+    "no_duplicates": {
+      "passed": true,
+      "severity": "error",
+      "details": {
+        "duplicate_text_rows": 0
+      }
+    },
+    "class_balance": {
+      "passed": true,
+      "severity": "warning",
+      "details": {
+        "ratio": 1.0,
+        "counts": {
+          "1": 1000,
+          "0": 1000
+        }
+      }
+    }
+  }
+}
